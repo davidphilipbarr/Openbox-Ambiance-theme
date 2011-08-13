@@ -15,9 +15,12 @@ window.*.client.color: #353531
 !# Set *all* fonts here
 
 menu.items.font:shadow=y:shadowtint=0:shadowoffset=2
+menu.title.text.font:shadow=y:shadowtint=25:shadowoffset=1
 window.active.label.text.font:shadow=y:shadowtint=25:shadowoffset=1
 window.inactive.label.text.font:shadow=y:shadowtint=0:shadowoffset=1
 osd.*.label.text.font:shadow=y:shadowtint=-20:shadowoffset=1
+
+
 !# just no bevel, right?
 *.bg.highlight: 0
 *.bg.shadow:    0
@@ -57,12 +60,7 @@ osd.*.bg.shadow:    10
 menu.border.color: #a5a5a5
 menu.border.width: 0
 
-!# maybe you don't like that this is not the same as the main active title?? 
-menu.title.bg: flat border vertical gradient
-menu.title.bg.color: #464744
-menu.title.bg.colorTo: #555753
-
-menu.title.text.color: #ffffff
+menu.title.text.color: #dedede
 menu.title.bg.border.color: #555753
 
 menu.items.bg: flat solid
@@ -91,11 +89,11 @@ window.*.title.separator.color: #353531
 
 window.inactive.title.separator.color: #3C3B37
 
-window.*.title.bg: raised splitvertical gradient
-window.*.title.bg.color: #3E3D39
-window.*.title.bg.color.splitTo: #575651
-window.*.title.bg.colorTo: #3C3B37
-window.*.title.bg.colorTo.splitTo:#3C3B37
+*.title.bg: raised splitvertical gradient
+*.title.bg.color: #3E3D39
+*.title.bg.color.splitTo: #575651
+*.title.bg.colorTo: #3C3B37
+*.title.bg.colorTo.splitTo:#3C3B37
 window.*.label.bg: parentrelative
 window.*.label.text.color: #dedede
 
